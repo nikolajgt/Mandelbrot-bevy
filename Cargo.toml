@@ -1,0 +1,16 @@
+[package]
+name = "Mandelbrot"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bevy = "0.8.1"
+bevy-inspector-egui = "0.13.0"
+image = "0.24.4"
+num-complex = "0.4.2"
+
+[profile.dev]
+opt-level = 1
+
